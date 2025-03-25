@@ -6,7 +6,10 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: { 
+      backgroundOpacity: {
+      '50': '0.5',
+    },},
   },
   plugins: [require('@tailwindcss/scrollbar-hide')],
 };

@@ -24,8 +24,8 @@ const RandomRecipes = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-10">
-      <h1 className="text-[50px] font-bold text-center text-green-700 mb-8 font-inter ">
+    <div className="min-h-screen bg-[#ffff] p-10">
+      <h1 className="text-[50px] font-bold text-center text-[#046E1B] mb-[40px] font-inter ">
         🍽️ Random Recipes
       </h1>
 
@@ -39,9 +39,9 @@ const RandomRecipes = () => {
               className=" p-6  transition duration-300 max-w-xs mx-auto"
             >
            
-              <div className="flex flex-col items-center w-[600px] h-[900px] bg-[#ffff] mt-[20px] gap-[57px] rounded-[20px]">
+              <div className="flex flex-col items-center w-[700px] h-auto bg-[#ffffff] mt-[20px] gap-[57px] rounded-[20px]">
                 
-                <h2 className="text-lg font-inter text-[30px] text-center mb-3">
+                <h2 className="text-lg font-inter text-[24px] font-[1000] text-center mb-3 p-[20px]">
                   {recipe.title}
                 </h2>
                 <img
@@ -50,7 +50,7 @@ const RandomRecipes = () => {
                   className="w-20 h-20 overflow-hidden rounded-[12px] mb-4"
                 />
 
-                <p className="text-[#573d3d] font-inter mt-3 text-sm leading-relaxed mb-4 ">
+                <p className="text-[#000000] font-inter text-[18px] mt-3 text-sm leading-relaxed mb-4 p-[20px]">
                   {cleanDescription(recipe.summary)}
                 </p>
               </div>

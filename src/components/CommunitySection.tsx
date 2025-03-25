@@ -4,14 +4,14 @@ import { FaStar, FaRegHeart, FaShareAlt } from "react-icons/fa";
 
 const Community: React.FC = () => {
   return (
-    <div id="community-section" className="w-[1440px] h-auto p-[100px] gap-[70px] mx-auto">
-      <div className="w-[1240px] h-auto gap-[49px] mx-auto">
-        <p className="w-[800px] h-[33px] text-[46px] font-inter font-semibold ml-[440px]">
+    <div id="community-section" className="flex justify-center w-full h-auto p-[100px] gap-[90px] mx-auto">
+      <div className="w-[1500px] h-auto gap-[49px] mx-auto">
+        <p className="flex justify-center text-[46px] font-inter font-semibold">
           From Our Community
         </p>
 
-        <div className="w-[1240px] h-auto gap-[90px] mx-auto mt-[100px]">
-          <div className="w-[1240px] h-[578px] flex gap-[90px] mx-auto">
+        <div className="flex justify-center  mt-[100px] h-[800]">
+          <div className="grid grid-cols-2 justify-center">
             <ReviewCard
               profile="/images/user1.png"
               foodName="Spaghetti Bolognese"
@@ -29,8 +29,8 @@ const Community: React.FC = () => {
           </div>
         </div>
 
-        <div className="w-[1240px] h-auto gap-[90px] mx-auto mt-[100px]">
-          <div className="w-[1240px] h-[578px] flex gap-[90px] mx-auto">
+        <div className="flex justify-center w-[1500px] h-[800px] mx-auto mt-[100px]">
+          <div className="grid grid-cols-2">
             <ReviewCard
               profile="/images/user3.png"
               foodName="Vegetable Pot Pie"

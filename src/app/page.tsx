@@ -5,6 +5,8 @@ import Community from '@/components/CommunitySection';
 import CTAsection from '@/components/CTA_Section';
 import Footer from '@/components/Footer';
 
+
+
 const HomePage = () => {
   return (
     <div>

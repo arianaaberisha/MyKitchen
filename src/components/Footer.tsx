@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return <div className="w-[1440px] h-[429px] mt-[-300px]">
-    <div className="W-[1240px] h-[279px] ml-[400px]">
+    <div className="w-[1500px] h-[279px] ml-[200px]">
         <h1 className="w-[115px] h-[29px] font inter text-[24px] font-[600px] text-[#046E1B]">Recipedia</h1>
-  <div className="flex w-full  gap-30">
+  <div className="flex w-full  gap-[60px]">
     <div className="w-[88px] h-[140px] ">
     <ul className="flex flex-col ">
         <h1 className="text-[24px] font inter mt-[30px] font-[600]">Menu</h1>
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
         </ul>
     </div>
     
-    <div className="w-[456px] h-auto ml-[150px] flex flex-col space-y-4">
+    <div className="w-[500px] h-auto ml-[150px] flex flex-col space-y-4">
 
   <div>
     <h1 className="text-[24px] font-inter font-[600] text-center">
@@ -43,13 +43,13 @@ const Footer: React.FC = () => {
   </div>
 
   
-  <div className="flex items-center space-x-4 mt-[100px]">
+  <div className="flex items-center space-x-4 mt-[100px] pl-[100px]">
     <input
       type="email"
       placeholder="Your Email Address"
       className="border-b-2 border-gray-300 focus:outline-none focus:border-green-500 w-full"
     />
-    <button className="w-[150px] h-[55px] bg-[#F79F1A] text-white px-4 py-2 text-[#ffff] rounded-lg rounded-[20px] mt-6 px-[20px] py-[10px] ml-[20px]">
+    <button className="w-[150px] h-[55px] bg-[#F79F1A] text-white px-4 py-2 text-[#ffff] rounded-lg rounded-[20px] mt-6 px-[20px] py-[10px] ml-[20px] hover: cursor-pointer">
       Submit
     </button>
   </div>
@@ -58,17 +58,17 @@ const Footer: React.FC = () => {
             <img 
               src="/images/salad2.png"
               alt="Salad Icon"
-              className="w-[80px] h-[80px] mt-[-220px] ml-[600px] "
+              className="w-[80px] h-[80px] mt-[-220px] ml-[800px] "
             />
           <img 
               src="/images/egg-plant.png"
               alt="Egg-pant Icon"
-              className="w-[60px] h-[60px] mt-[100px] ml-[600px] "
+              className="w-[60px] h-[60px] mt-[100px] ml-[800px] "
             />
              <img 
               src="/images/fried-eggs.png"
               alt="Egg-pant Icon"
-              className="w-[70px] h-[70px] mt-[-220px] ml-[1050px] "
+              className="w-[70px] h-[70px] mt-[-220px] ml-[1350px] "
             />
           
    

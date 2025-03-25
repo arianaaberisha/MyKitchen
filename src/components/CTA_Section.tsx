@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const CTAsection: React.FC = () => {
   return (
-    <div className="w-[1440px] h-[572px] p-12 pr-[100px] pb-[1000px] pl-[100px] gap-2.5 ml-[230px]">
-      <div className="w-[1240px] h-[422px] gap-2.5 bg-[#046E1B] p-[20px] rounded-[20px] flex">
+    <div className="w-[1500px] h-[572px] p-12 pb-[1000px]  gap-2.5 ml-[200px]">
+      <div className="flex justify-center w-full h-[422px] gap-2.5 bg-[#046E1B] p-[20px] rounded-[20px] flex">
       
         <div className="w-[787px] h-[260px] pl-[50px] flex flex-col">
           <h2 className="w-[787px] h-[145px] text-white font-inter font-semibold text-[46px] leading-[1] tracking-[-0.017em]">

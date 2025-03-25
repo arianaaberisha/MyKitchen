@@ -1,13 +1,13 @@
 import "./output.css";
-import SearchIcon from "@/components/icons/SearchIcon";
-import ProfileIcon from "./icons/ProfileIcon";
 import ReviewCard from "./ReviewCard";
 import Link from "next/link";
+import { FaSearch, FaUser } from "react-icons/fa";
 
 const Header: React.FC = () => {
   return (
     <>
-      <div className="w-[1341.97px] h-[777.72px] mx-auto mt-6">
+    
+      <div className="w-[1500px] h-[900px]  mx-auto mt-6">
         <header className="flex items-start justify-between w-full h-[29px] mt-6">
           <div className="text-[24px] font-inter font-semibold leading-[100%] tracking-[0%] w-[115px] h-[29px] text-[#046E1B]">
             Recipedia
@@ -26,17 +26,17 @@ const Header: React.FC = () => {
             </div>
           </nav>
 
-          <div className="flex w-[70px] h-[21.14px] items-center justify-between gap-5">
+          <div className="flex w-[70px] h-[20px] items-center justify-between gap-5">
             <div className="w-6 h-6 bg-gray-400 rounded-full"></div>
-            <SearchIcon />
+            <FaSearch/>
             <div className="w-6 h-6 bg-gray-400 rounded-full"></div>
-            <ProfileIcon />
+            <FaUser />
           </div>
         </header>
 
-        <div className="w-[610px] h-[416px] mt-[193px] gap-[61px]">
-          <div className="w-[610px] h-[280px] gap-[37px] flex flex-col justify-start">
-            <div className="w-[610px] h-[207px] text-[64px] font-inter font-bold leading-[80px] tracking-[0%]">
+        <div className=" w-full h-screen mx-auto py-[150px]">
+          <div className=" flex flex-col gap-[40px] ">
+            <div className=" flex justify-start text-[64px] font-inter font-bold leading-[80px] tracking-[0%]">
               Cooking Made Fun <br />
               and Easy: Unleash <br />
               Your Inner Chef
@@ -55,41 +55,40 @@ const Header: React.FC = () => {
               </button>
             </Link>
 
-            <div className="w-[818.73px] h-[777.73px] ml-[523.24px] mt-6 gap-[10px] relative">
+            <div className=" flex justify-end mt-6 gap-[10px] relative">
               <img 
                 src="/images/image.png" 
                 alt="Image" 
-                className="w-[658px] h-[590px] absolute top-[-500px] transform rotate-[19.76deg] z-10"
+                className="w-[700px] h-[600px] absolute top-[-500px] transform rotate-[19.76deg] z-10"
               />
               <img 
                 src="/images/tomato.png" 
                 alt="Tomato Icon" 
-                className="w-[50px] h-[50px] absolute top-[-500px] left-[80px]"
+                className="w-[50px] h-[50px] absolute right-[600px] top-[-500px]  "
+              />
+              <img 
+                src="/images/broccoli.png" 
+                alt="Broccoli Icon" 
+                className="w-[70px] h-[70px] absolute right-[100px] transform rotate-[19.76deg]"
               />
             </div>
+            
           </div>
-
-          <div className="w-[120px] h-[120px] ml-[501px] top-[536px] p-[10px] gap-[10px]">
-            <img 
+          <img 
               src="/images/garlic.png" 
               alt="Garlic Icon" 
-              className="w-[100px] h-[100px]"
+              className="w-[100px] h-[100px] ml-[700px] mt-[-100px]"
             />
           </div>
-
-          <div className="w-[120px] h-[120px] ml-[501px] top-[536px] p-[10px] gap-[10px]">
-            <img 
-              src="/images/broccoli.png" 
-              alt="Broccoli Icon" 
-              className="w-[70px] h-[70px] mt-[-10px] ml-[600px] transform rotate-[30.84deg]"
-            />
+          <div className="w-[300px] h-auto mt-[-300px]">
+          <ReviewCard />
           </div>
-        </div>
-      </div>
 
-      <div className="w-[250px] h-auto mt-10">
-        <ReviewCard />
-      </div>
+          </div>
+        
+     
+
+      
     </>
   );
 };
