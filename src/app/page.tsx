@@ -5,24 +5,20 @@ import Community from '@/components/CommunitySection';
 import CTAsection from '@/components/CTA_Section';
 import Footer from '@/components/Footer';
 
-
-
-const HomePage = () => {
+export default function Home() {
   return (
-    <div>
-      <Header />
-      <main>
-        <RecipeSection />
-        <AboutUs />
-        <Community />
-        <CTAsection />
-        <Footer />
-      </main>
-    </div>
+    <main className="min-h-screen p-8">
+      <div className="max-w-4xl mx-auto">
+        <h1 className="text-4xl font-bold text-blue-600 mb-4">
+          Welcome to Recipedia
+        </h1>
+        <p className="text-lg text-gray-600 hover:text-gray-800 transition-colors">
+          Your recipe discovery platform
+        </p>
+      </div>
+    </main>
   );
-};
-
-export default HomePage;
+}
 
 
 

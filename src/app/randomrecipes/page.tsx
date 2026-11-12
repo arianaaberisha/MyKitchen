@@ -32,7 +32,7 @@ const RandomRecipes = () => {
       {recipes.length === 0 ? (
         <p className="text-center text-gray-600 text-lg font-inter">Loading recipes...</p>
       ) : (
-        <div className="grid grid-flow-col grid-rows-4 gap-4">
+        <div className="grid grid-flow-col grid-rows-4 gap-4 ">
           {recipes.map((recipe) => (
             <div
               key={recipe.id}
