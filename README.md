@@ -63,3 +63,7 @@ public/images/    Static images
 - The free Spoonacular plan has a daily request limit. If recipes stop loading, the limit has
   probably been reached and it resets the next day.
 - `.env.local` is git-ignored. Never commit your API key.
+
+## Credits
+
+Recipe data and images are provided by the [Spoonacular API](https://spoonacular.com/food-api). This project is not affiliated with Spoonacular.
